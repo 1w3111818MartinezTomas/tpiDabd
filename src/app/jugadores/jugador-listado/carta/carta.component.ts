@@ -10,8 +10,8 @@ export class CartaComponent implements OnInit {
   @Input()
   cardNumber:string;
 
-  @Input('cardURL')
-  cardURL:string;
+  @Input('urlCarta')
+  urlCarta:string;
   
   constructor() { }
 

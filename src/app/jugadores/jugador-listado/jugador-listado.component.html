@@ -3,16 +3,16 @@
         <div class="row">
                 <ng-container *ngFor="let dealerCard of this.cartaData.cartasDealer">
                     <div class="col-sm">
-                     <app-carta [cardURL]="'./assets/cartas/' + dealerCard + '.png'"></app-carta>
+                     <app-carta [urlCarta]="'./assets/cartas/' + dealerCard + '.png'"></app-carta>
                     </div>
                 </ng-container>
         </div>
         <br>
         <h3 class="identity">Jugador: ({{this.cartaData.puntajeJugador}})</h3>
         <div class="row">
-                <ng-container *ngFor="let userCard of this.cartaData.cartasJugador">
+                <ng-container *ngFor="let cartaJugador of this.cartaData.cartasJugador">
                     <div class="col-sm">
-                        <app-carta [cardURL]="'./assets/cartas/' + userCard + '.png'"></app-carta>
+                        <app-carta [urlCarta]="'./assets/cartas/' + cartaJugador + '.png'"></app-carta>
                     </div>
             </ng-container>
         </div>
