@@ -1,0 +1,11 @@
+<div class="row flexBox">
+    <div>
+        <button type="button" class="btn btn-primary" [disabled]="this.cartaData.resultado !== ''" (click)="pedir()">Pedir</button>
+        <button type="button" class="btn btn-secondary" [disabled]="this.cartaData.resultado !== ''" (click)=quedarse() >Quedarse</button>
+        <button type="button" class="btn btn-info" [disabled]="this.cartaData.resultado === ''" (click)=reset()>Reset</button>
+    </div>
+</div>
+<br>
+<div class="flexBox">
+    <h3 class="resultado">{{this.cartaData.resultado}}</h3>
+</div>

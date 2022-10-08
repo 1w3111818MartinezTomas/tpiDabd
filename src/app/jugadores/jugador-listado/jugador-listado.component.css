@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#cartas-dealer img{
+    height: 175px;
+    width: 125px;
+    margin: 1px;
+}
+
+#cartas-juador img{
+    height: 175px;
+    width: 125px;
+    margin: 1px;
+}
+
+#pedir {
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+}
+#quedarse {
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+}
